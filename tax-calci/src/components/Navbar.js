@@ -1,13 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar(props) {
   return (
     <div class="ui secondary pointing menu">
-      <a class="active item">Home</a>
-      <a class="item">Register</a>
-      <a class="item">About</a>
+      <Link to="/" class="active item">
+        Home
+      </Link>
+      <Link to="/calculate" class="item">
+        Calculate Tax
+      </Link>
+      <Link to="/login" class="item">
+        Login
+      </Link>
+      <Link to="/register" class="item">
+        Register
+      </Link>
       <div class="right menu">
-        <a class="ui item">Logout</a>
+        <Link to="#" class="ui item">
+          Logout
+        </Link>
       </div>
     </div>
   );

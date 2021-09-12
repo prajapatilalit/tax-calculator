@@ -71,11 +71,8 @@ class Register extends Component {
                   />
                 </div>
               </div>
-              <div className="field">
-                <button className="ui fluid large teal submit button">
-                  Register
-                </button>
-              </div>
+
+              <div className="ui fluid large teal submit button">Register</div>
             </div>
           </form>
           <div class="ui message">
